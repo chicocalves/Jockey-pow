@@ -11,14 +11,14 @@
 
 #header {
     border-radius: 8px;
-    padding: 20px;
-    margin: 30px 0;
+    padding: 10px;
+    margin: 20px 0;
     background-color: #b2bec3;
     text-align: center;
 }
 
-#header h3 {
-  padding: 20px 0 0 0;
+#header h4 {
+    padding: 20px 0 0 0;
 }
 
 #placar {
@@ -29,10 +29,11 @@
 
 #jogador,
 #computador {
+    font-size: 13px;
     position: relative;
     flex-grow: 1;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
 }
 
@@ -43,9 +44,9 @@
     background-color: #74b9ff;
 }
 #versus {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    width: 70px;
+    width: 50px;
 }
 
 #jogador-nome {
@@ -97,9 +98,9 @@ ul#computador-escolha li a img {
 
 #mensagens {
     background-color: #b2bec3;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 8px;
-    padding: 20px;
-    margin: 40px 0;
+    padding: 10px;
+    margin: 10px 0;
     text-align: center;
 }
