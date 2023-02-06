@@ -77,7 +77,7 @@ const verificarGanhador = () => {
         document.getElementById("computador-pontos").innerHTML =
             computadorPontuacao
     } else {
-        document.getElementById("mensagens").innerHTML = "Jogo empatado!"
+        document.getElementById("mensagens").innerHTML = "Empate!"
     }
     document.getElementById("total").innerHTML = totalPartidas
 }
